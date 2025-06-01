@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- la etiqueta link con el rel stylesheet permite vincular una hoja de estilos y con el href se le indica la ubicacion dentro del proyecto   -->
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <h1>¡Bienvenido a nuestra página!</h1>
-        <p>Sitio web de muestra para una empresa ficticia</p>
-        <a href="#features" class="btn">Ver características</a>
+<header> <!--El header se usa para definir la cabecera de la web. En este ejemplo es la parte principal de la web  -->
+    <div class="container"> <!-- los Div se usan para agrupar contenidos dentro de la web y poder organizar -->
+        <h1>¡Bienvenido a nuestra página!</h1> <!-- Define el titulo principal de la web  -->
+        <p>Sitio web de muestra para una empresa ficticia</p> <!-- parrafos simples de texto  -->
+        <a href="#features" class="btn">Ver características</a> <!--  con la etiqueta "a" se pueden agregar enlaces a otras webs-->
     </div>
 </header>
 
-<section id="features">
-    <div class="container">
-        <h2>Características principales</h2>
+<section id="features"> <!-- los ID se usan para identificar de forma unica un elemento -->
+    <div class="container"> <!-- Los class se usan para agrupar elementos con un mismo estilo -->
+        <h2>Características principales</h2> <!-- Se usa para definir subtitulos en la web -->
         <div class="feature">
-            <h3>Facilidad de uso</h3>
+            <h3>Facilidad de uso</h3> <!-- Siguiendo la estructura de los titulos y subtitulos, es el tercer nivel, despues continuan h4,h5, etc -->
             <p>Nuestra plataforma es fácil de usar para cualquier persona, sin importar su experiencia.</p>
         </div>
         <div class="feature">
@@ -32,7 +32,7 @@
             <p>Ofrecemos soporte técnico las 24 horas del día, los 7 días de la semana, para ayudarte en cualquier momento.</p>
         </div>
     </div>
-</section>
+</section >
 
 <section id="testimonials">
     <div class="container">
@@ -43,7 +43,7 @@
         </div>
         <div class="testimonial">
             <p>"Nunca pensé que encontraría una solución tan genial. ¡Recomendado al 100%!"</p>
-            <cite>- Otro cliente satisfecho</cite>
+            <cite>- Otro cliente satisfecho</cite> <!-- Se usa para citar la fuente o autor de una obra, texto o referencia -->
         </div>
     </div>
 </section>
@@ -51,7 +51,7 @@
 <section id="contact">
     <div class="container">
         <h2>Contacto</h2>
-        <form action="#" method="post">
+        <form action="#" method="post"> <!-- se usa agrupar inputs que permite enviar datos  -->
             <input type="text" name="name" placeholder="Nombre" required>
             <input type="email" name="email" placeholder="Correo electrónico" required>
             <textarea name="message" placeholder="Mensaje" required></textarea>
@@ -60,8 +60,8 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
+<footer> <!-- se usa para definir el pie de pagina de la web  -->
+    <div class="container"> 
         <p>&copy; 2025 Compañía XYZ. Todos los derechos reservados.</p>
     </div>
 </footer>

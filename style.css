@@ -2,38 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+} /* El body se usa para contener todo el contenido de la web, y en este caso se estan seteando los margenes y padding en cero para poder personalizar 100% la web. En cuanto al font-family se indica la fuente a utilizar en toda la web */
+
+/*  */
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
-}
+    width: 80%; /* la propiedad width establece el ancho del elemento */
+    margin: 0 auto; /*  establece una separación entre elementos*/
+    padding: 20px 0; /*  establece una separacion dentro del elemento*/
+}/* la clase container se uso en la web en las diferentes secciones, permitiendo reutilizar el estilo  */
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #333; /* establece el color de fondo */
+    color: #fff; /* propiedad para manipular el color del texto */
+    text-align: center; /* permite alinear el texto */
     padding: 100px 0;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; /* permite establecer el tamaño de la fuente */
 }
 
+/*  */
 .btn {
-    display: inline-block;
+    display: inline-block; /*  establece el comportamiento del elemento. en este caso en bloque*/
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px; /* permite redondear las esquinas del elemento */
     transition: background-color 0.3s ease;
-}
+}/* Esta clase permite generalizar los estilos de los botones y reutilizar cuando se requiera  */
 
 .btn:hover {
     background-color: #0056b3;
-}
+}/*  el hover permite determinar como se comporta el estilo cuando el cursos esta sobre el elemento*/
 
 section {
     padding: 50px 0;
@@ -68,18 +71,18 @@ h2 {
 }
 
 form {
-    max-width: 600px;
+    max-width: 600px; /*  */
     margin: 0 auto;
 }
 
-input[type="text"],
+input[type="text"], 
 input[type="email"],
-textarea {
+textarea { /* campo donde se permite escribir al usuario  */
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* propiedad para manipular el borde de un elemento */
 }
 
 button[type="submit"] {
@@ -88,7 +91,7 @@ button[type="submit"] {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /* estipula el tipo de cursos a usar */
     transition: background-color 0.3s ease;
 }
 
@@ -102,3 +105,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+/* Estilos estipulados para el footer de la web */
